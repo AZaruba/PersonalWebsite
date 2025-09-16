@@ -1,0 +1,12 @@
+$font-path: '../../public/fonts';
+@font-face{
+  src: url('#{$font-path}/DepartureMono-Regular.otf');
+  font-family: 'DepartureMono-Regular'
+}
+
+.departureDefault {
+  font-family: 'DepartureMono-Regular';
+  font-size: 44px;
+  background-color: rgb(12,12,12);
+  color: rgb(219, 116, 25);
+}
